@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>25 Lab Studio</title>
+		<link href="assets/style.css" rel="stylesheet" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+	<div id="bg-img"></div>
+	<body>
+		<header>
+			<div class="navbar">
+				<img src="assets/imgs/logo.png" />
+				<nav>
+					<ul>
+						<li><a href="#nav-about">About</a></li>
+						<li><a href="#nav-project">Projects</a></li>
+						<li><a href="#nav-contact">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="jumbotron">
+				<h3>Mugeki Ch.</h3>
+				<h6>Music Production | Audio Composing</h6>
+			</div>
+		</header>
+		<main>
+			<div class="content-container" id="nav-about">
+				<article>
+					<img class="card left" src="assets/imgs/article-img1.jpg" />
+					<div class="right">
+						<h2 class="article-title">About</h2>
+						<p>
+							Mugeki merupakan nama dari sebuah channel YouTube yang berisikan konten-konten musik original ataupun
+							remix dari musik yang ada dan dibuat dan dijalankan oleh seorang mahasiswa bernama Muhamad Elang Ramadhan
+							yang memiliki hobi dalam bidang musik.
+						</p>
+						<p>
+							Tujuan dari dibuatnya channel YouTube ini adalah agar karya-karya yang telah dibuat olehnya bisa dikenal
+							dan didengarkan oleh banyak orang dari berbagai belahan dunia.
+						</p>
+					</div>
+				</article>
+			</div>
+			<div class="content-container" id="nav-project">
+				<article>
+					<div class="left">
+						<h2 class="article-title">Projects</h2>
+						<p>
+							Beberapa video disamping ini merupakan contoh project yang telah dibuat pada channel ini. Musik pada
+							beberapa video ini terdiri dari remix dan musik original yang terinspirasi dari beberapa Virtual YouTuber
+							atau biasa dikenal dengan istilah VTuber.
+						</p>
+						<p>Nantikan juga project-project lainnya di waktu mendatang!</p>
+					</div>
+					<div class="right vid-slider">
+						<iframe
+							class="vid card"
+							width="600"
+							height="346"
+							src="https://www.youtube.com/embed/-iWB9MhMtak"
+							title="Project 1"
+							frameborder="0"
+							allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						></iframe>
+						<iframe
+							class="vid card"
+							width="600"
+							height="346"
+							src="https://www.youtube.com/embed/ThxQNnW5ibM"
+							title="Project 2"
+							frameborder="0"
+							allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						></iframe>
+						<iframe
+							class="vid card"
+							width="600"
+							height="346"
+							src="https://www.youtube.com/embed/J-v-nbaLNBI"
+							title="Project 3"
+							frameborder="0"
+							allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						></iframe>
+						<label class="radio-container">
+							<div class="custom-radio checked" onclick="showVid(this.innerText)">0</div>
+						</label>
+						<label class="radio-container">
+							<div class="custom-radio" onclick="showVid(this.innerText)">1</div>
+						</label>
+						<label class="radio-container">
+							<div class="custom-radio" onclick="showVid(this.innerText)">2</div>
+						</label>
+					</div>
+				</article>
+			</div>
+			<aside id="nav-contact">
+				<header>
+					<h2 class="aside-title">Contact</h2>
+					<p>Tertarik untuk melakukan kolaborasi?</p>
+					<figure>
+						<img src="assets/imgs/profile-pic.jpg" class="card" />
+					</figure>
+				</header>
+				<section>
+					<table>
+						<tr>
+							<th>Nama</th>
+							<td>Muhamad Elang Ramadhan</td>
+						</tr>
+						<tr>
+							<th>E-mail</th>
+							<td>elangmugeki@gmail.com</td>
+						</tr>
+						<tr>
+							<th>Alamat</th>
+							<td>Jl. H Sadiah No.11, Cianjur, Jawa Barat</td>
+						</tr>
+						<tr>
+							<th>No. Telp</th>
+							<td>+62 82216160462</td>
+						</tr>
+					</table>
+				</section>
+			</aside>
+		</main>
+		<footer>
+			<p>25 Lab Studio &copy; Muhamad Elang Ramadhan, 2021</p>
+		</footer>
+		<script src="assets/visual.js"></script>
+	</body>
+</html>
